@@ -35,6 +35,7 @@ body{
 }
 .menuitems{
     float: left;
+    
     width: fit-content;
     /* border: solid; */
     padding: 2px 30px;
