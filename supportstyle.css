@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    font-family:Helvetica, sans-serif ;
+
+}
+
+.header{
+    width: 100%;
+    height: 27px;
+    position: relative;
+   
+}
+
+.logo
+{
+    width: 45%;
+    position: relative;
+    float: left;
+    padding-left: 100px;
+    
+}
+.menu{
+    float: left;
+    width: 49%;
+    position: relative;
+    height: 60px;
+    color: #3f51b5;
+    
+
+
+}
+.menuitems{
+    float: left;
+    width: fit-content;
+    /* border: solid; */
+    padding: 2px 30px;
+   
+    height: 28px;
+    margin: 18px 0px;
+}
+
+#mainbody{
+    width: 100%;
+    height: 2730px;
+    position: relative;
+    /* margin: 0 auto; */
+   
+}
+
+.intro{
+    width: 100%;
+    height: 450px;
+   
+    position: relative;
+    text-align: center;
+    background-image: url("support4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.head{
+    
+    position: relative;
+    top: 90px;
+    font-size: 56px;
+    color: #ffffff;
+}
+#sbox{
+    background: #fff;
+    width: 500px;
+    height: 45px;
+    border: 0.5px solid #141313;
+    position: relative;
+    border-radius: 10px;
+    left: 700px;
+    
+}
+.items{
+    width: 175px;
+    height: fit-content;
+    border-left: 0.5px solid lightgray;
+    border-right: 0.5px solid lightgray;
+    position: relative;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    float: left;
+    
+}
+.asset{
+   
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding-top: 1px;
+    /* border: solid; */
+}
+.asset3{
+    width: 100%;
+    height: 200px;
+   
+    display: flex;
+    justify-content: center;
+
+}
+.eachasset{
+    background: antiquewhite;
+    width: 15%;
+    height: 150px;
+   
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 24px;
+    align-items: center;
+    float: left;
+}
+.bundle{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+   
+}
+.scontent{
+    width: 50%;
+    height: inherit;
+   
+    line-height: 41px;
+}
+.hbox{
+    background: #fff;
+    width: 313px;
+    height: 27px;
+    border: 0.5px solid #141313;
+    position: relative;
+    border-radius: 4px;
+}
+.lis{
+    color: darkcyan;
+    font-size: 24px;
+    list-style: hangul-consonant;
+}
+
+.search{
+    height: 35px;
+    
+    float: left;
+    width: 320px;
+}
+.arrow{
+    width: 32px;
+    float: left;
+    border-radius: 3px;
+    height: 29px;
+    background: #e1dede;
+    border: 0.5px solid gray;
+    margin-top: 6px;
+    margin-left: -4px;
+    
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+
+.leftside{
+    width: 30%;
+    height: 325px;
+    float: left;
+    position: relative;
+   
+    display: flex;
+    justify-content: right;
+ 
+}
+.leftone{
+    width: 300px;
+    height: 50px;
+    /* border: solid; */
+    border-left: solid;
+    margin: 6px;
+    float: none;
+    
+}
+.rightside{
+    justify-content: center;
+    width: 66%;
+    height: 325px;
+   
+    position: relative;
+    /* color: #dbc8b2; */
+    display: flex;
+    background: #f5f1eb;
+    float: left;
+    align-items: center;
+}
+.lfirst{
+    width: 50px;
+    height: 100%;
+    
+    display: flex;
+    float: left;
+    TEXT-ALIGN: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: burlywood;
+}
+.lsec{
+    width: 200px;
+    height: 100%;
+ 
+    float: left;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+.leftall{
+    width: 300px;
+    height: fit-content;
+   
+}
+
+
+.lin{
+    text-decoration: none;
+    color: black;
+}
+
+a.lin :hover{
+    background-color: rgb(238, 248, 195);
+    border-left: 3px rgb(197, 141, 36) solid;
+}
+
+
+
+
+.rightall{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.rightone{
+    width: 320px;
+    height: 192px;
+   
+    float: left;
+    margin: 10px;
+    background: aliceblue;
+    display: flex;
+    color: #d19950;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.sec{
+    text-decoration: none;
+    color: black;
+}

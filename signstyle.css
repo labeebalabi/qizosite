@@ -1,0 +1,39 @@
+body{
+    background: rgb(245 232 230);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: baseline; */
+    color: darkcyan;
+    position: relative;
+}
+
+.signbody{
+    width: 600px;
+    height: 500px;
+    
+    position: relative;
+    top: 84px;
+}
+
+.textbox{
+    width: 300px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 23pz;
+    background: #fafff6;
+    border-radius: 7px;
+}
+.label{
+    font-size: 20px;
+    padding: 57px;
+}
+
+.button{
+    border: none;
+    padding: 7px;
+    background: #e7044e;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}

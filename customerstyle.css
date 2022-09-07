@@ -17,6 +17,10 @@ body{
     float: left;
     height: 100%;
 }
+.menulink{
+    text-decoration: none;
+    color: black;
+}
 .menutext{
     position: relative;
     top: 14px;
