@@ -277,6 +277,7 @@ float: left;
     display: flex;
     margin-top: 7px;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .upper{
@@ -343,8 +344,9 @@ float: left;
 }
 
 .customer{
-    width: 49.2%;
+    
     height: auto;
+    flex-grow: 1;
    
     float: left;
     height: 250px;
@@ -435,10 +437,10 @@ float: left;
 }
 .about{
     width: 20%;
-    height: 180px;
+   
     position: relative;
     float: left;
-    margin-top: 50px;
+   
 }
 .about ol{
     
