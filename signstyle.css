@@ -10,10 +10,12 @@ body{
 
 .signbody{
     width: 600px;
-    height: 500px;
+    height: 489px;
     
     position: relative;
     top: 84px;
+    background-color:crimson;
+    color: #fafff6;
 }
 
 .textbox{
@@ -32,7 +34,7 @@ body{
 .button{
     border: none;
     padding: 7px;
-    background: #e7044e;
+    background:#a36076;
     font-size: 17px;
     color: white;
     font-weight: bold;

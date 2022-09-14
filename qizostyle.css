@@ -11,26 +11,29 @@ body{
 .header{
     width: 100%;
     height: 105px;
+    display: flex;
    
-    position: relative;
 }
 
 .logo
 {
-    width: 45%;
+    width: 200px;
+   
     position: relative;
-    float: left;
+    /* float: left; */
+    height: 105px;
     padding-left: 100px;
-    
+    flex-grow: 1;
 }
 .menu{
-    float: left;
-   
-    width: 49%;
-    position: relative;
-    height: 105px;
-    color: gray;
-
+       /* float: left; */
+       width: 42%;
+       position: relative;
+       height: 105px;
+       color: gray;
+      
+       align-items: center;
+       display: flex;
 
 }
 .menulink{
@@ -38,22 +41,25 @@ body{
     color: gray;
 }
 .menuitems{
-    float: left;
-    
-    width: fit-content;
-    /* border: solid; */
-    padding: 2px 30px;
-    font-weight: bold;
-    height: 28px;
-    margin: 34px 0px;
+   
+       width: 130px;
+      
+       font-weight: bold;
+       height: 28px;
+      
+       text-align: center;
+      
 }
 
 #mainbody{
     width: 100%;
-    height: 2730px;
+    height: 100%;
     position: relative;
-    /* margin: 0 auto; */
-    text-align: -webkit-center;
+    margin: 0 auto;
+    direction: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #head{
     margin: 0 auto;
@@ -68,6 +74,16 @@ body{
     font-weight: bold;
     text-align: center;
 }
+.entirefeature{
+        /* border: solid; */
+        height: 252px;
+        /* display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); */
+        display: flex;
+        
+        width: 100%;
+
+}
 .feature{
     width: 53%;
     height: 350px;
@@ -78,12 +94,11 @@ body{
   
 }
 .one{
-    
     width: 450px;
-    height: 250px;
+    height: 252px;
     background: linear-gradient(to right, #BAD3FB 0%, #ffffff 100%);
-   
-    float: left;
+    /* float: left; */
+    flex-grow: 2;
 }
 .bm{
     letter-spacing: -18px;
@@ -107,12 +122,72 @@ body{
     margin-left: 320px;
     padding: 11px;
 }
+.onetest{
+    border: 0.5px solid lightgray;
+    width: 275px;
+    height: 100%;
+    display: flex;
+
+}
+.oneleft{
+   
+    width: 80px;
+    height: 100%;
+}
+.oneright{
+    display: flex;
+    flex-direction: column;
+   
+    flex-grow: 1;
+    width: 175px;
+    height: 100%;
+}
+.onehead{
+   
+    width: 100%;
+    height: 91px;
+    display: flex;
+    align-items: end;
+    font-size: 25px;
+    /* font-style: italic; */
+    font-weight: bold;
+    font-family: emoji;}
+
+.onepara{
+   
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: 16px;
+}
+.onesignup{
+  
+    width: 100%;
+    flex-grow: 1;
+    height: 40px;
+    text-align: center
+    ;
+}
+
+
+
+
+
+
+
+
+
 .two{
     height: 250px;
     border: 0.5px solid lightgrey;
     width: 270px;
-    
     float: left;
+    flex-grow: 1;
+}
+.toalign{
+
 }
 .jr{
     letter-spacing: -18px;
@@ -136,7 +211,7 @@ body{
 }
 .work{
 
-
+flex-grow: 1;
 width: 450px;
 height: 250px;
 background: linear-gradient(to right, #F3FBBA 0%, #ffffff 100%);
@@ -148,8 +223,20 @@ float: left;
     height: 135px;
     border: 0.5px solid lightgrey;
     width: 270px;
-    
     float: left;
+    flex-grow: 1;
+}
+.entiretwo{
+    height: 252px;
+    width: 100%;
+    display: flex;
+
+}
+.entirework{
+  
+    width: 100%;
+    display: flex;
+    height: 135px;
 }
 
 .meethead{
@@ -185,10 +272,11 @@ float: left;
     width: 32.5%;
     height: 182px;
     border: 0.5px gray solid;
-   
-    float: left;
+ 
     margin-left: 9px;
+    display: flex;
     margin-top: 7px;
+    flex-direction: column;
 }
 
 .upper{
@@ -238,14 +326,15 @@ float: left;
 .privacy{
     font-size: 20px;
     position: relative;
-    top: 28%;
+    /* top: 23%; */
+    /* border: solid; */
     color: #12f3de;
 }
 .learn{
     width: fit-content;
     border: 0.7px solid #afb91d;
-    position: relative;
-    left: 100px;
+    /* position: relative; */
+    /* left: 100px; */
     font-weight: bold;
     color: #ff0023;
     padding: 4px;
@@ -281,11 +370,12 @@ float: left;
 .partners{
     width: 39%;
     height: 176px;
-  
     float: left;
     position: relative;
     text-align: left;
+    display: flex;
     margin-left: 100px;
+    flex-direction: column;
 }
 .phead{
     width: 100%;
@@ -297,26 +387,51 @@ float: left;
     padding-bottom: 7px;
 
 }
-.pline{
-
+.search{
+    justify-content: center;
+    display: flex;
+   
+    height: 50px;
 }
 
+.entirethree{
+    
+    width: 100%;
+    height: 195px;
+    display: flex;
+}
+.entireprivacy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.entireend{
+    width: 100%;
+    
+    display: flex;
+    height: 176px;
+}
 /*footer*/
 
 #footer{
     background: #333;
     width: 100%;
     height: 500px;
-    
-   
+    display: flex;
     color: lightgray;
+    justify-content: center;
 }
 #alignment{
     width: 60%;
     height: inherit;
-   
     position: relative;
-    left: 20%;
+    /* align-items: unset; */
+    display: flex;
+    flex-direction: column;
 }
 .about{
     width: 20%;
@@ -339,12 +454,13 @@ float: left;
 
 #sbox{
     background: #333;
-    width: 70%;
+    width: 600px;
     height: 36px;
     border: 0.5px solid lightgray;
-    position: relative;
+    /* position: relative; */
     left: 15%;
     float: left;
+    color: aliceblue;
 }
 .li2{
     display: inline-block;
