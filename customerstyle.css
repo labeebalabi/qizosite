@@ -6,16 +6,22 @@ body{
     width: 100%;
     height: 50px;
     border: 0.5px solid gray;
-    
+    display: flex;
+}
+#mainbody{
+    background: #fbf3ea;
+    margin-top: -51px;
 }
 .menuitems{
+    display: flex;
     width: 100px;
     position: relative;
     text-align: center;
-   font-size: 14px;
-   
+    font-size: 14px;
+    /* border: solid; */
     float: left;
     height: 100%;
+    /* padding-left: 48px; */
 }
 .menulink{
     text-decoration: none;
@@ -32,7 +38,10 @@ body{
     float: left;
     height: 100%;
     /* border: solid; */
-    left: 60.6%;
+    /* left: 60.6%; */
+    justify-content: end;
+    display: flex;
+    flex-grow: 1;
 }
 .searchicon{
     width: 30px;
@@ -63,6 +72,7 @@ body{
 .one{
     width: 100%;
     height: 30%;
+    display: flex;
   
     position: relative;
     text-align: center;
@@ -73,17 +83,20 @@ body{
     height: fit-content;
     float: left;
     padding: 50px;
+    flex-grow: 1;
 }
 .custoname{
     width: 220px;
     height: 50px;
     color: brown;
     /* border: solid; */
-    float: left;
+    text-align: left;
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
-    margin-top: 52px;
+    margin: 52px 0px;
+    flex-grow: 1;
+
 }
 .two{
 
@@ -169,4 +182,20 @@ body{
     position: relative;
     
     float: left;
+}
+
+a.lin:active{
+    background-color: aqua;
+}
+
+
+.stickynav{
+    height: 50px;
+    display: flex;
+    background: lavenderblush;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }

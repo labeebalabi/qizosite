@@ -1,21 +1,32 @@
 body{
-    background: rgb(245 232 230);
+    background-image: url(mainlogo.jpg);
     margin: 0;
-    display: flex;
-    justify-content: center;
     /* align-items: baseline; */
     color: darkcyan;
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
+#all{
+    display: flex;
+    justify-content: center;
+}
 .signbody{
     width: 600px;
     height: 489px;
-    
     position: relative;
-    top: 84px;
-    background-color:crimson;
+    top: 120px;
+    background-color: #2e138b;
     color: #fafff6;
+}
+.describe{
+    width: 400px;
+    height: 489px;
+    text-align: center;
+  
+    position: relative;
+    top: 120px;
+    background: aliceblue;
 }
 
 .textbox{
@@ -33,9 +44,30 @@ body{
 
 .button{
     border: none;
-    padding: 7px;
-    background:#a36076;
+    padding: 5px;
+    background: #ef200b;
+    border-radius: 24px;
     font-size: 17px;
     color: white;
+    padding-left: 14px;
+    padding-right: 14px;
     font-weight: bold;
+}
+
+.pic{
+   
+    margin-top: 100px;
+    font-size: 23px;
+    color: darkblue;
+    text-decoration: underline;
+    font-family: auto;
+    /* font-style: italic; */
+}
+.about{
+       /* border: solid; */
+     
+       font-style: italic;
+       font-size: 19px;
+       color: darkslateblue;
+      
 }
